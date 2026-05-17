@@ -98,6 +98,7 @@ export function LoginForm() {
                                     </FieldLabel>
                                     <Input
                                         {...field}
+                                        type="password"
                                         id="form-rhf-demo-title"
                                         aria-invalid={fieldState.invalid}
                                         placeholder="Enter Your Password"
